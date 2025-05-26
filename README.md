@@ -169,9 +169,19 @@ k. (11) 法律法规规定的其他情形。
         【双端】如崩溃数据、性能数据
     用途和目的：
         减少App崩溃、提供稳定可靠的服务
-        
+
 26、穿山甲广告SDK需要使用自启动服务：
     穿山甲广告SDK具有自启动功能，为确保本应用处于关闭或后台运行状态下可正常接收到客户端推送的信息，将存在一定频率通过系统发送广播唤醒本应用自启动或关联启动行为,是因实现功能及服务所必要的。本应用须使用(自启动)能力，其目的是确保推送通道的稳定性，以便正常及时地向安卓设备推送消息。当系统发送广播时，将唤醒穿山甲SDK自启动行为。鉴于穿山甲SDK系以集成方式接入应用，穿山甲SDK自启动，则应用亦随之自启动。该行为系因实现推送功能及服务所必要。
+
+27、应用集成友盟+移动统计SDK(com.umeng.analytics)：SDK名称：友盟+移动统计SDK 开发者:友盟同欣（北京）科技有限公司 SDK隐私政策链接：https://www.umeng.com/page/policy
+
+28、应用集成抖音SDK（安卓版）(com.bytedance.android.dy.sdk) SDK名称：抖音SDK（安卓版） 开发者:北京微播视界科技有限公司 SDK隐私政策链接：https://developer.open-douyin.com/docs/resource/zh-CN/dop/operation-standard/service-protocol/douyinsdk_pingtaiyinsizhengce
+
+29、应用集成穿山甲广告SDK(com.bytedance.sdk.openadsdk) SDK名称：穿山甲广告SDK 开发者:北京巨量引擎网络技术有限公司 SDK隐私政策链接：https://www.csjplatform.com/privacy
+
+30、应用集成优量汇 Android SDK(com.qq.e) SDK名称：优量汇 Android SDK 开发者:深圳市腾讯计算机系统有限公司 SDK隐私政策链接：https://e.qq.com/dev/help_detail.html?cid=2005&pid=5983
+
+31、应用需要申请android.permission.ACCESS_COARSE_LOCATION（访问粗略位置）权限，用于优量汇广告精准投放。
 
 三、我们如何使用 本地存储和同类技术
 
